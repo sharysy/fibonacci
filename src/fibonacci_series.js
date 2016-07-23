@@ -14,7 +14,7 @@ var arr = [0,1];
             arr.push((arr[i-1])+arr[i-2]);
         }
     }
-    return arr;
+    
 }
 
 module.exports = fibonacci_series;
